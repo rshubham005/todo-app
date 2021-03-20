@@ -7,11 +7,12 @@
 body
 {
     background-color: rgb(194, 189, 189);
+    min-height: 100vh;
 }
 .header
 {
     width: 100%;
-    background-color: crimson;
+    background-color: rgb(194, 189, 189);
     text-align: center;
 
 }
@@ -51,14 +52,14 @@ body
 .todo-list
 {
    
-    padding: 25px 15px;
+    padding: 15px 15px;
     margin-bottom: 25px;
 }
 .col-md-4
 {
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 15px;
 }
 .task
 {
@@ -103,12 +104,11 @@ body
 }
 .footer
 {
-    background-color: crimson;
+    background-color:  rgb(194, 189, 189);
     text-align: center;
     padding: 5px;
     width: 100%;
-    position: fixed;
-    bottom: 0px;
+    
 }
 .footer-heading
 {
